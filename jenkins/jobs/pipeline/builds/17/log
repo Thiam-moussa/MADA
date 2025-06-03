@@ -1,0 +1,133 @@
+Started by user unknown or anonymous
+[8mha:////4HB9gSLM8jOvcsTKa0APsrOX1oYeL+G73Il/XTVgqz1BAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4F71s+ICcoCAx2mzXPc20pMxY00zbxFSXtGeaVIBRwJWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4BV+/NUZnmvhrW0GYaV/B23aCi64wXvAcvHpjq1PYAODAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/jobs/pipeline/workspace
+[8mha:////4E+WBOS92JZam9CYM5k3BeGb9FZzZS0aGYxQQIR3Nh/LAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4Ng3BRX2UcOTZYOmaSY8NiFvT7OXGx6KCS7gNPWWJj4fAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4B4lsfIXB5B+ks8psvwIiLLQTWsVjECPVyZvhxk/+Or3AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Test location)
+[8mha:////4AMrGqa0UApQ1yCy2fNuP/JmgKUgemzo8dCZvi8o93tOAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] echo
+location
+[8mha:////4AQw0dOf+ufOWAgXOiTiOKLMT0V8ervt89qqdhwEpRhrAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI4F2L72ED8v8DEJvAAAAA==[0m[Pipeline] sh
++ pwd
+/var/jenkins_home/jobs/pipeline/workspace
+[8mha:////4PFS6zgvxU5+zfAdGDrVIaq+CY9b0s3JC7LfgnIrxts6AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j/zqggXvAAAAA==[0m[Pipeline] }
+[8mha:////4EMWmcO8E8vrtIsPmJBRl5jqAFVcih93/exV8+FbK0JAAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoYeVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8AExtCpb0AAAA=[0m[Pipeline] // stage
+[8mha:////4CfIrAK7A0ZnogUyA4mh2IYsV/0BXWcN5Yh58M08MW9TAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYSjSHSIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFDuGsmk+x+oNEzd2msEAAAA=[0m[Pipeline] stage
+[8mha:////4HamtM6s1p8Dels+cAjxCyE8mNFlB+DVACgEaBd3NB/dAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] { (Téléchargement du repo)
+[8mha:////4KU6EAm1MszRg48BIf+qws53o4fjksv9XbIiytMqhyw/AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud19ah/eeSmYHb4AAAA=[0m[Pipeline] echo
+Téléchargement du repo
+[8mha:////4PGMzp9iMJsN/wqStZ4ZraPdsmB/Nu9vDiceF/MUcCqrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr6/2VK+AAAA[0m[Pipeline] sh
++ [ -d app ]
++ echo Le dossier app existe déjà, suppression...
+Le dossier app existe déjà, suppression...
++ rm -rf app
++ git clone http://gitlab:8929/root/app
+Cloning into 'app'...
+warning: redirecting to http://gitlab:8929/root/app.git/
+[8mha:////4KC3HR6OqviUgrbtPqyIwF4nmDiX1//zTfOyXUXqcC2IAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7NyZXKai+AAAA[0m[Pipeline] }
+[8mha:////4C6E3eANVyO1RVy6raMfkf9bA3zdBKrIP9j8zub8glCxAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyaWwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfMnS0t74AAAA=[0m[Pipeline] // stage
+[8mha:////4LVIz3qpeduXuNULZdR8muMzwvmT+/kAhvmy5udAkaPGAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJCQKREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lGw7UL0zBAAAA[0m[Pipeline] stage
+[8mha:////4MTU9baYLzsvyJPGJ6bWrvTV1XwXGwx9lkOlDySGxr9nAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Build)
+[8mha:////4BGcJ9/Dx0q7PlHDTuCMkBDQ6N6nO2FOhF74TfTThr3eAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] echo
+Build de l’image Docker de l’app
+[8mha:////4LdgmibplzOMQdYLUgj3agx6OEY3zdfF8H8cpekEXHgHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGtm4OQvgAAAA==[0m[Pipeline] sh
++ pwd
+/var/jenkins_home/jobs/pipeline/workspace
+[8mha:////4Cg8AYfwPJtnwfKZFYByKfU/z18wpW+TX2fgT5lwUuztAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUCEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QVkfcu1r/wHsqpiJvgAAAA==[0m[Pipeline] sh
++ docker build -t myapp:latest ./app
+#1 [internal] load build definition from Dockerfile
+#1 sha256:94e844e027923add07240525e14951765ff7946b59283b9a6e8009552069db86
+#1 transferring dockerfile: 155B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/node:18-alpine
+#2 sha256:fb90574236a0a1e8fa4d18b0da9ea146d2e7739e0b128b5c0407af25bc742abc
+#2 DONE 0.5s
+
+#3 [internal] load .dockerignore
+#3 sha256:667b1136ea7cc7ee1b3396468057a3d5f897ca82459e76dc64e169668cc3b9ef
+#3 transferring context: 2B 0.0s done
+#3 DONE 0.0s
+
+#9 [1/5] FROM docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e
+#9 sha256:f91489ef195421a94c9aefb08af26be78585273fab4a49f12a8cf6d7551aa80f
+#9 resolve docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e 0.0s done
+#9 DONE 0.0s
+
+#7 [internal] load build context
+#7 sha256:02c291d622e93f87e1a8b124125b3dfa205b1e53a51f24566a60fe0d8bec9d06
+#7 transferring context: 39.69kB 0.2s done
+#7 DONE 0.2s
+
+#8 [2/5] WORKDIR /usr/src/app
+#8 sha256:2895ac04dc87b9a3eb99ae369a55231fc9528f5c8d85a5f417ff66d6cfab7c88
+#8 CACHED
+
+#6 [3/5] COPY package*.json ./
+#6 sha256:a6499e98d47213f6b4cda920b98f8e3dfc3038e974cca7ccce24e2293efa602d
+#6 DONE 0.0s
+
+#5 [4/5] RUN npm install
+#5 sha256:1d45dc64db43801c5b46d0b6fbe08ba0a35087a4c5d88c2f8909b899ba060ce6
+#5 3.808 
+#5 3.808 added 69 packages, and audited 70 packages in 3s
+#5 3.808 
+#5 3.808 14 packages are looking for funding
+#5 3.808   run `npm fund` for details
+#5 3.811 
+#5 3.811 found 0 vulnerabilities
+#5 3.814 npm notice
+#5 3.814 npm notice New major version of npm available! 10.8.2 -> 11.3.0
+#5 3.814 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.3.0
+#5 3.814 npm notice To update run: npm install -g npm@11.3.0
+#5 3.814 npm notice
+#5 DONE 3.9s
+
+#4 [5/5] COPY . .
+#4 sha256:f249032139d62f4b3a175a0466b315d617254af34e26bb4482970e28197195ff
+#4 DONE 0.1s
+
+#10 exporting to image
+#10 sha256:28786a6eb42587d48732a8f87342f7b9d47d7d3da70f75b63110de23195ad361
+#10 exporting layers
+#10 exporting layers 0.5s done
+#10 exporting manifest sha256:01b62654f069ef82351185bb06f5adc9cc88f13deb764226026adcf8f082d248 0.0s done
+#10 exporting config sha256:491741c742ca94acd91e477f4a24c9a1f29112657a0eb9521c2f0bb673b5b967 0.0s done
+#10 naming to docker.io/library/myapp:latest 0.0s done
+#10 unpacking to docker.io/library/myapp:latest
+#10 unpacking to docker.io/library/myapp:latest 0.4s done
+#10 DONE 1.0s
+[8mha:////4A0T3ylTMW6mr6GpCd8v6A5sXn9REiUmVMXLmUpeHABgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEdlBFkvgAAAA==[0m[Pipeline] }
+[8mha:////4AnpzUjgOMb/Ul77135aN1cA66YcDTpdNlvWTTTi6y5hAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw8pWvI/vgAAAA==[0m[Pipeline] // stage
+[8mha:////4CY4r0RzQ/+uigE+hOVfLqbQxVnp0ZbPQeefQLhxc3ftAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjoXSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INPbxT+8EAAAA=[0m[Pipeline] stage
+[8mha:////4D/wAkwgY/DdHuKo5jit+Vesc8l1egIOqHfG0qNgxhOuAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] { (Test)
+[8mha:////4LDnfcrmA/qYaI3SON6os1GHvZSdaMu1jz9FQG3csNrvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] echo
+Tests de l’application
+[8mha:////4IZY5x0G+kJu9jaIvpdJwhru7ljnNRktICVFYXVmOFJ0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1Ja5owvgAAAA==[0m[Pipeline] sh
++ docker run --rm myapp:latest npm test
+
+> docker-node-app@1.0.0 test
+> echo "Aucun test défini" && exit 0
+
+Aucun test défini
+[8mha:////4D89qAbMqt5gqon3cSJpA5/3jCcmJZ4pae2giSRnLh4KAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGEDKU2/2ndm8FmBaQvgAAAA==[0m[Pipeline] }
+[8mha:////4HPl6ltzttu5tx2VI93pNY7h0MA8lsGxSj0oyrcjtpDjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIRqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQE2e00svgAAAA==[0m[Pipeline] // stage
+[8mha:////4Co/wjVTQt+5a/v/EuCC3Ks0Aj+uKmTEsnd8B06hyDPwAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYSDBB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INn/W1xsEAAAA=[0m[Pipeline] stage
+[8mha:////4PkH1lDwk1IQqXOdEHQB7EiQ/t2MzCZ1brmj9HZjnqDRAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] { (Deploy to Prod)
+[8mha:////4Bl5LaVGfG1evH0u+v/b9zbqFj8kq/GRdJeHSQJJemn+AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfettHKdL4AAAA=[0m[Pipeline] echo
+Déploiement de l’image Docker
+[8mha:////4PogIl95FnqeAbnD/sd0AC+4F5O1dfG1lMGrs6lrjaFhAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIilBJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3f9+DRbb4AAAA=[0m[Pipeline] sh
++ docker stop myapp
+Error response from daemon: No such container: myapp
++ true
++ docker rm myapp
+Error: No such container: myapp
++ true
++ docker run -d -p 3000:3000 --name myapp myapp:latest
+5cc1d11c4fc5fe3757a70109ffd08d99804d93ab182f0a92843d1803ce07b774
+[8mha:////4LJAV3RvNxubr+xCGMqidaLBuBBucgDnb9gQAK8HVNq2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BpKm1V++AAAA[0m[Pipeline] }
+[8mha:////4Kfp+aT048Av+0Z425XFbOBopXgk6OpdVuCnvwZfIjmHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKChKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN6FFjuO+AAAA[0m[Pipeline] // stage
+[8mha:////4FUG6+rFnnPAmza+vkHhvX25hgx8/v/95Re8nmY7I6bHAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPLn/NEL0AAAA=[0m[Pipeline] }
+[8mha:////4AFKEHM+Pclz3k75XhVGD9x9ZJ3jiDgmlbn1EHmqA8iFAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUFBaOlW2GxhNEiDGQ2cVkESpP5NW8g4zMWPmr/17zXm+sU8SRo1Otpc5Tqr3qw+Dmp0aO3TXwqFq+qJopcbCqsmPFjT0tWLFYLMtyrDQ2lurAyZMTbHVrHqYIhlxxlji7g0bumzueyPRcFhPlC1PE7jY0ienX+RvA1PeCvNwLsvIDPcPJs70AAAA=[0m[Pipeline] // node
+[8mha:////4MAYyOYIn9/RKdL5gfcR/TODIyAM4aIDxoL7hCn79/daAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AHpknka9AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

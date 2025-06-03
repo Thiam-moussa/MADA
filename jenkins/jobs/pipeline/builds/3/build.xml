@@ -1,0 +1,70 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1520.v56d65e3b_4566">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@752.vdddedf804e72">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>25</queueId>
+  <timestamp>1745479248914</timestamp>
+  <startTime>1745479248954</startTime>
+  <result>FAILURE</result>
+  <duration>1558</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>
+    stage(&apos;Test Docker&apos;) {
+    steps {
+        sh &apos;docker version&apos;
+    }
+}
+</script>
+    <loadedScripts class="linked-hash-map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>271071607</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>502080286</long>
+      </entry>
+      <entry>
+        <string>runQueue</string>
+        <long>1124862089</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>860571065</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>415114761</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>268227220</long>
+      </entry>
+    </timings>
+    <internalCalls class="sorted-set"/>
+    <sandbox>true</sandbox>
+    <iota>7</iota>
+    <head>1:7</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+    <storageDir>workflow-completed</storageDir>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

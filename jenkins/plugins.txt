@@ -1,0 +1,6 @@
+job-dsl
+ldap
+git
+workflow-aggregator
+blueocean
+credentials

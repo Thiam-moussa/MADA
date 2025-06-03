@@ -1,0 +1,71 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1520.v56d65e3b_4566">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2254.v2a_978de46f35"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2254.v2a_978de46f35">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@4106.v7a_8a_8176d450">
+    <script>pipeline {
+    agent any
+
+    stages {
+        stage(&apos;Test location&apos;) {
+            steps {
+                echo &apos;location&apos;
+                sh &apos;pwd&apos;
+            }
+        }
+        
+        stage(&apos;Téléchargement du repo&apos;) {
+            steps {
+                echo &apos;Téléchargement du repo&apos;
+                sh &apos;&apos;&apos;
+                    if [ -d &quot;app&quot; ]; then
+                        echo &quot;Le dossier app existe déjà, suppression...&quot;
+                        rm -rf app
+                    fi
+                    git clone http://gitlab:8929/root/app
+                &apos;&apos;&apos;
+            }
+        }
+
+        stage(&apos;Build&apos;) {
+            steps {
+                echo &apos;Build de l’image Docker de l’app&apos;
+                sh &apos;pwd&apos;
+                sh &apos;docker build -t myapp:latest ./app&apos;
+            }
+        }
+
+        stage(&apos;Test&apos;) {
+            steps {
+                echo &apos;Tests de l’application&apos;
+                sh &apos;docker run --rm myapp:latest npm test&apos;
+            }
+        }
+
+        stage(&apos;Deploy to Prod&apos;) {
+            steps {
+                echo &apos;Déploiement de l’image Docker&apos;
+                sh &apos;&apos;&apos;
+                    docker stop myapp || true
+                    docker rm myapp || true
+                    docker run -d -p 3000:3000 --name myapp myapp:latest
+                &apos;&apos;&apos;
+            }
+        }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

@@ -1,0 +1,69 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1520.v56d65e3b_4566">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@752.vdddedf804e72">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>26</queueId>
+  <timestamp>1745479588388</timestamp>
+  <startTime>1745479588438</startTime>
+  <result>FAILURE</result>
+  <duration>1882</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>stage(&apos;Test Docker&apos;) {
+    steps {
+        sh &apos;docker version&apos;
+    }
+}
+</script>
+    <loadedScripts class="linked-hash-map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>407408638</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>194047225</long>
+      </entry>
+      <entry>
+        <string>runQueue</string>
+        <long>1749143905</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>1243903953</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>313900808</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>436109849</long>
+      </entry>
+    </timings>
+    <internalCalls class="sorted-set"/>
+    <sandbox>true</sandbox>
+    <iota>7</iota>
+    <head>1:7</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+    <storageDir>workflow-completed</storageDir>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

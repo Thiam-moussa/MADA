@@ -1,0 +1,5 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/jenkins_home/jobs/seed/workspace
+ERROR: no Job DSL script(s) found at *.groovy
+Finished: FAILURE
